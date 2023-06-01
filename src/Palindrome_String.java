@@ -9,7 +9,7 @@ public class Palindrome_String {
         maam
         abcba
      */
-    public static boolean isPalindrome(String str) {
+    public static boolean isPalindrome1(String str) {
         if (str == null) {
             return false;
         }
@@ -17,7 +17,7 @@ public class Palindrome_String {
         return stringBuilder.reverse().toString().equals(str);
     }
 
-    public static boolean isPal(String s){
+    public static boolean isPalindrome2(String s){
         if (s == null){
             return false;
         }
@@ -31,7 +31,7 @@ public class Palindrome_String {
 
     public static void main(String[] args) {
         String s = "anna";
-        System.out.println(isPal(s));
+        System.out.println(isPalindrome2(s));
     }
 
 
